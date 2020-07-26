@@ -1,0 +1,274 @@
+.header {
+  background-color: #c5ec37;
+  text-align: center;
+  padding: 20px;
+}
+.grid {
+  margin: 80px 20px 0;
+}
+/*.Wrapper{
+  max-width: 200%;
+  margin:auto;
+}*/
+.rowWrapper{
+  display: flex
+}
+h1{
+  margin: 0px;
+  height: 100px;
+  background-color: #c5ec37;
+}
+p1{
+  
+  background-color: #c5ec37;
+  color:#0645f5;
+  padding: 5px;
+  
+  font-size: 35px;
+  border: none;
+  
+  position: absolute;
+  top: 10px;
+  left: 10px;  
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+.btnReset {
+  background-color: #55ecd8;
+  color: black;
+  padding: 10px;
+  
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;   
+  
+}
+.btnVisualize
+{
+  background-color: #55ecd8;
+  color: black;
+  padding: 10px;
+  
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  right: 130px;  
+
+
+
+}
+.clearPath
+{
+  background-color: #55ecd8;
+  color: black;
+  padding: 10px;
+  
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  right: 10px;  
+
+
+
+}
+
+#selectAlgo
+{  display: flex;
+  width: 200px;
+  
+}
+#selectAlgo option
+{  width: 300px;
+  height: 400px;
+}
+.algo-container 
+{    width:1000px;
+    height: 500px;
+}
+
+
+.selectMaze
+{
+  background-color: #55ecd8;
+  color: black;
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 360px;  
+
+
+}
+.selectAlgo
+{
+  background-color: #55ecd8;
+  color: black;
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 130px;  
+
+
+}
+
+p2{
+  
+  background-color:white;
+  color:#f50606;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  
+  position: absolute;
+  top:150px;
+  right:470px;  
+
+
+}
+
+.startNode{
+  
+  width: 25px;
+  height: 25px;
+  font-size: 5px;
+  position:absolute;
+  top: 115px;
+  left: 100px;
+  outline: 0.00001px solid #df744a;
+  display: inline-block;
+  background-color: green;
+}
+.start{
+  font-size: 14px;
+  position:absolute;
+  top: 120px;
+  left: 130px;
+}
+.targetNode{
+
+  width: 25px;
+  height: 25px;
+  font-size: 5px;
+  position:absolute;
+  top: 115px;
+  left: 200px;
+  outline: 0.00001px solid #df744a;
+  display: inline-block;
+  background-color: red;
+}
+.target{
+  font-size: 14px;
+  position:absolute;
+  top: 120px;
+  left: 230px;
+}
+.visitedNode{
+
+  width: 25px;
+  height: 25px;
+  font-size: 5px;
+  position:absolute;
+  top: 115px;
+  left: 300px;
+  outline: 0.00001px solid #df744a;
+  display: inline-block;
+  background-color: rgba(0, 190, 218, 0.75);
+}
+.visited{
+  font-size: 14px;
+  position:absolute;
+  top: 120px;
+  left: 330px;
+}
+.pathNode{
+
+  width: 25px;
+  height: 25px;
+  font-size: 5px;
+  position:absolute;
+  top: 115px;
+  left: 400px;
+  outline: 0.00001px solid #df744a;
+  display: inline-block;
+  background-color: yellow;
+}
+.path{
+  font-size: 14px;
+  position:absolute;
+  top: 120px;
+  left: 430px;
+}
+.wallNode{
+
+  width: 25px;
+  height: 25px;
+  font-size: 5px;
+  position:absolute;
+  top: 115px;
+  left: 550px;
+  outline: 0.00001px solid #df744a;
+  display: inline-block;
+  background-color: black;
+}
+.wall{
+  font-size: 14px;
+  position:absolute;
+  top: 120px;
+  left: 580px;
+
+}
+.result{
+
+  width: 130px;
+  height: 60px;
+  font-size: 16px;
+  position:absolute;
+  top: 110px;
+  right: 50px;
+  outline:0.00001px double #b2df4a;
+  background-color:rgb(198, 131, 224)
+
+}
+.log{
+
+  width:130px;
+  height: 50px;
+  font-size: 12px;
+  position:absolute;
+  top: 120px;
+  right: 50px;
+  
+  background-color:rgb(198, 131, 224)
+
+}
+
+
+
+
+
